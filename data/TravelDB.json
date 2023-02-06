@@ -11,6 +11,12 @@
       "city": "Chicago",
       "country": "USA",
       "daysNeeded": 5
+    },
+    {
+      "id": 73.76092002973877,
+      "city": "dsadsa",
+      "country": "dasdasd",
+      "daysNeeded": 7
     }
   ]
 }
