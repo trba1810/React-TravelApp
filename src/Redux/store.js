@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { DestinationAPI } from "../api/DestinationAPI";
-import { RandomDestinationAPI } from "../api/RandomDestinationApi";
+import { RandomDestinationAPI } from "../api/RandomDestinationAPI";
 
 export const store = configureStore({
   reducer: {

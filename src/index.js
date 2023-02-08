@@ -4,11 +4,13 @@ import DestinationIndex from "./components/DestinationIndex";
 import Header from "./layout/Header";
 import { Provider } from "react-redux";
 import { store } from "./Redux/store";
+import RandomDestination from "./components/RandomDestination";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
     <Header />
     <DestinationIndex />
+    <RandomDestination />
   </Provider>
 );
